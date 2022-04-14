@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Tags */
+
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+}
+
+h2 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 32px;
+}
+ 
+h3 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 29px;
+}
+
+h4 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 26px;
+}
+
+h5 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 23px;
+}
+
+h6 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+}
+
+button {
+  font-size: 12px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: aqua;
+}
+
+
+/* Classes */
+
+.sinopse1 {
+  width: 300px;
+  padding: 5px;
+}
+
+.sinopse1 > p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+  margin-bottom: 20px;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.titPrincipal {
+  color: royalblue;
+  letter-spacing: 2px;
+  margin-block-start: 0.33em;
+  margin-block-end: 0.33em;
+}
+
+.subTit {
+  color: white;
+  padding-left: 15px;
+}
+
+.titRevista1 {
+  margin-block-start: 0.20em;
+  margin-block-end: 0.20em;
+}
+
+.precoRevista1 {
+  margin-block-start: 0.20em;
+  margin-block-end: 0.20em;
+}
+
+.bgtitPrincipal {
+  padding: 12px;
+  background-color: white;
+}
+
+.divImg {
+  width: 100%;
+  height: 200px;
+  background-image: url('../img/dc_comics_capa1.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: slategray;
+  border: 1px solid darkslategray;
+  /*
+  background-size: contain;
+  */
+}
+
+.divImg2 {
+  width: 100%;
+  height: 100px;
+  background-image: url('../img/superman1.png');
+  /* background-position: center top; */
+  background-color: slategray;
+  border: 1px solid white;
+  background-size: 100% auto;
+  /* background-repeat: no-repeat; */
+}
+
+.divImg3 {
+  width: 100%;
+  height: 100px;
+  background-image: url('../img/marvel_comics_capa1.jpg');
+  background-position: center;
+  background-color: slategray;
+  border: 1px solid white;
+  background-size: cover;
+}
+
+
+
+/* IDs */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  body {
+    background-color: yellow;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .divImg {
+    background-image: url('../img/logan_cover.jpg');
+  }
+
+  .divImg3 {
+    background-size: 100% auto;
+  }
+
+  .subTit {
+    color: orangered;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  body {
+    background-color: gold;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  body {
+    background-color: orange;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  body {
+    background-color: darkorange;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  body {
+    background-color: orangered;
+  }
+
+}
