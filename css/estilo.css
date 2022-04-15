@@ -43,22 +43,29 @@ h5 {
 h6 {
   font-family: 'Comfortaa', cursive;
   font-size: 20px;
+  line-height: 26px;
 }
 
 button {
   font-size: 12px;
   padding: 10px;
   border: 1px solid gray;
-  border-radius: 10px;
+  border-radius: 8px;
   background-color: aqua;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: mediumblue;
+  color: white;
 }
 
 
 /* Classes */
 
 .sinopse1 {
-  width: 300px;
-  padding: 5px;
+  width: 60%;
+  padding: 2px;
 }
 
 .sinopse1 > p {
@@ -66,6 +73,31 @@ button {
   line-height: 16px;
 }
 
+.sinopse2 {
+  width: 90%;
+  padding: 5px;
+}
+
+.sinopse2 > p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.flex-container-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: RoyalBlue;
+}
+
+.flex-container-logo>div {
+  background-color: #f1f1f1;
+  width: 100px;
+  height: 100px;
+  margin: 6px;
+  text-align: center;
+}
 
 .flex-container {
   display: flex;
@@ -76,8 +108,21 @@ button {
 
 .flex-container > div {
   background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.flex-container-int {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+
+.flex-container-int > div {
+  background-color: #f1f1f1;
+  margin: 4px;
+  padding: 4px;
   font-size: 30px;
 }
 
