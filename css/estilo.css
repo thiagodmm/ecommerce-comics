@@ -63,6 +63,10 @@ button:hover {
 
 /* Classes */
 
+.titLogo {
+  margin-top: 4px;
+}
+
 .sinopse1 {
   width: 60%;
   padding: 2px;
@@ -93,7 +97,7 @@ button:hover {
 
 .flex-container-logo>div {
   background-color: #f1f1f1;
-  width: 100px;
+  width: 160px;
   height: 100px;
   margin: 6px;
   text-align: center;
@@ -134,6 +138,11 @@ button:hover {
 }
 
 .subTit {
+  color: white;
+  padding-left: 15px;
+}
+
+.subTit2 {
   color: white;
   padding-left: 15px;
 }
@@ -187,6 +196,9 @@ button:hover {
   background-size: cover;
 }
 
+.text-center {
+  text-align: center;
+}
 
 
 /* IDs */
