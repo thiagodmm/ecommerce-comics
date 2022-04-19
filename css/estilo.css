@@ -38,6 +38,7 @@ h4 {
 h5 {
   font-family: 'Comfortaa', cursive;
   font-size: 23px;
+  line-height: 28px;
 }
 
 h6 {
@@ -63,8 +64,24 @@ button:hover {
 
 /* Classes */
 
+.pNormal {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.pMenor {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
 .imagemResponsiva {
   width: 100%;
+}
+
+.larg20porcento {
+  width: 20%;
 }
 
 .titLogo {
@@ -78,7 +95,7 @@ button:hover {
 
 .sinopse1 > p {
   font-size: 12px;
-  line-height: 16px;
+  line-height: 18px;
 }
 
 .sinopse2 {
@@ -206,12 +223,21 @@ button:hover {
 }
 
 
+
 /* IDs */
 
 
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+  .capaDestaque {
+    text-align: center;
+  }
+
+  .larg20porcento {
+    width: 100%;
+  }
 
   body {
     background-color: yellow;
