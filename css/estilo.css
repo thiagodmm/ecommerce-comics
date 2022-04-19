@@ -63,6 +63,10 @@ button:hover {
 
 /* Classes */
 
+.imagemResponsiva {
+  width: 100%;
+}
+
 .titLogo {
   margin-top: 4px;
 }
@@ -91,16 +95,17 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150px;
+  height: auto;
   background-color: RoyalBlue;
 }
 
 .flex-container-logo>div {
-  background-color: #f1f1f1;
-  width: 160px;
-  height: 100px;
-  margin: 6px;
-  text-align: center;
+  /*background-color: #f1f1f1;*/
+  width: 420px;
+  height: 120px;
+  margin: 20px;
+  background-image: url('../img/logo_flash_comics_420x120.png');
+  background-position: center;
 }
 
 .flex-container {
@@ -216,6 +221,15 @@ button:hover {
     flex-direction: column;
   }
 
+  .flex-container-logo>div {
+    /*background-color: #f1f1f1;*/
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    background-image: url('../img/logo_flash_comics_120x120.png');
+    background-position: center;
+  }
+
   .divImg {
     background-image: url('../img/logan_cover.jpg');
   }
@@ -237,6 +251,20 @@ button:hover {
     background-color: gold;
   }
 
+  .divImg {
+    background-image: url('../img/marvel_comics_capa1.jpg');
+    background-position: center bottom;
+  }
+
+  .flex-container-logo>div {
+    /*background-color: #f1f1f1;*/
+    width: 330px;
+    height: 94px;
+    margin: 20px;
+    background-image: url('../img/logo_flash_comics_330x94.png');
+    background-position: center;
+  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -253,6 +281,28 @@ button:hover {
 
   body {
     background-color: darkorange;
+  }
+
+  .divImg {
+    width: 100%;
+    height: 200px;
+    background-image: url('../img/dc_comics_capa1.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: slategray;
+    border: 1px solid darkslategray;
+    /*
+    background-size: contain;
+    */
+  }
+
+  .flex-container-logo>div {
+    /*background-color: #f1f1f1;*/
+    width: 420px;
+    height: 120px;
+    margin: 20px;
+    background-image: url('../img/logo_flash_comics_420x120.png');
+    background-position: center;
   }
 
 }
