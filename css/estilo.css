@@ -110,6 +110,15 @@ button:hover {
   line-height: 16px;
 }
 
+.footer {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  padding-top: 20px;
+  height: 120px;
+  background-color: darkcyan;
+}
+
 .flex-container-logo {
   display: flex;
   justify-content: center;
@@ -137,6 +146,13 @@ button:hover {
 .flex-container > div {
   background-color: #f1f1f1;
   margin: 5px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.flex-container > .revistasPromo {
+  background-color: #f1f1f1;
+  margin: 30px;
   padding: 10px;
   font-size: 30px;
 }
